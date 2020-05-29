@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5d58429a68ef5528f23c4351d3326b685e128cf0e0cdb965cebac337e16d2847
+-- hash: 5d274a86e43e27cfb091bd4d342e8d2725b7e8061227024d89e7ade27a1dd6f6
 
 name:           learning-haskell
 version:        0.1.0.0
@@ -27,8 +27,9 @@ source-repository head
 
 library
   exposed-modules:
-      Lecture03
+      CSVParser
       Lib
+      Theory
   other-modules:
       Paths_learning_haskell
   hs-source-dirs:
@@ -55,7 +56,8 @@ test-suite learning-haskell-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Lecture03TestSuite
+      CSVParserTestSuite
+      TheoryTestSuite
       Paths_learning_haskell
   hs-source-dirs:
       test
