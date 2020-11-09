@@ -29,7 +29,7 @@ Diving deep into this is a bit out of scope for this README. But, it's all very 
 Now, let's do a simple ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) thing using REPL, so as to ensure that things are running ok:
 
 ```shell script
-> print("Hello, World!")
+> print "Hello, World!"
 "Hello, World!"
 ```
 
@@ -37,7 +37,7 @@ Now, let's do a simple ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,
 We can start with the usual [forking and cloning](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)  of this repository. After that, we should be able to build and test our project using _stack_:
 
 ```shell script
-$ cd learning-haskell
+$ cd learning-haskell/lecture01
 $ stack test
 ```
 
