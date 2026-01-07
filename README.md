@@ -1,6 +1,4 @@
-# Learning Haskell at [Shuttl](http://shuttl.com/)
-
-###### A Lecture Series by [Sherub Thakur](https://github.com/sherubthakur), a Haskell Lover! 
+# Learning Haskell
 
 
 ## Prerequisite Setup
